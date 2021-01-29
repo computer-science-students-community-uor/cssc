@@ -1,0 +1,80 @@
+.clock-item .inner{
+	height: 0;
+	padding-bottom: 100%;
+	position: relative;
+	width: 100%;
+}
+.clock-canvas{
+	
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+	border: 3px solid #007bff;
+}
+.text {
+	
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -50px;
+	position: absolute;
+	top: 60%;
+	text-align: center;
+	text-shadow: 1px 1px 1x rgb(22, 22, 22) ;
+	width: 100%;
+}
+.val{
+	color: black;
+	font-size: 3rem;
+	margin: 5px 0;
+}
+.type-time{
+	margin-top: 10px;
+	color: rgb(107, 106, 106);
+	font-family: 'Roboto', sans-serif;
+}
+.countdown-time-value{
+	font-family: 'Catamaran', sans-serif;
+	margin-top: 20px;
+}
+
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color:#007bff;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #59a4f3;
+}
